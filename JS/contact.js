@@ -40,7 +40,7 @@ document.getElementById("form-ctt").addEventListener("submit", function(e) {
 
     if (erreur == false) {
         const postContact = async function (data) {
-            let response = await fetch('https://bedrinedev.fr/API/contact.php', {
+            let response = await fetch('API/contact.php', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json; charset=UTF-8'
@@ -51,13 +51,6 @@ document.getElementById("form-ctt").addEventListener("submit", function(e) {
 
             if (response.ok) {
                 console.log(responseData);
-                btnctt.className = "btn-valider-ctt-ok";
-                btnctt.innerHTML = "Envoyé !";
-                setTimeout(btncttAnimation, 8000);
-                function btncttAnimation() {
-                    document.querySelector(".btn-valider-ctt-ok").className = "btn-valider-ctt";
-                    document.querySelector(".btn-valider-ctt").innerHTML = "Envoyer";
-                }
             } else {
                 console.log('Erreur du serveur :', response.status);
                 reponsectt.innerHTML = "Erreur du serveur veuillez ressayer ultérieurement";

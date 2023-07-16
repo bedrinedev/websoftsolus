@@ -1,5 +1,5 @@
 const title = document.querySelector('.autotext');
-const text = "Développeur WEB et Informaticien"
+const text = "Expert en module WHMCS"
 
 let index = 0;
 

@@ -1,0 +1,187 @@
+/* FRAMEWORK CSS */
+
+.text1 {
+	font-size: 16px;
+}
+
+.text2 {
+	font-size: 18px;
+}
+
+.text3 {
+	font-size: 22px;
+}
+
+.text4 {
+	font-size: 24px;
+}
+
+.text5 {
+	font-size: 26px;
+}
+
+.text6 {
+	font-size: 30px;
+}
+
+.text7 {
+	font-size: 32px;
+}
+
+.text8 {
+	font-size: 36px;
+}
+
+.text9 {
+	font-size: 40px;
+}
+
+.gras {
+	font-weight: bold;
+}
+
+.italic {
+	font-style: italic;
+}
+
+.soulignes {
+	text-decoration: underline;
+}
+
+.nosoulignes {
+	text-decoration: none;
+}
+
+.police {
+	font-family: 'Quicksand', Arial, sans-serif;
+	font-display: swap;
+}
+
+.noir {
+	color: black;
+}
+
+.blanc {
+	color: white;
+}
+
+.gris {
+	color: gray;
+}
+
+.bleu {
+	color: blue;
+}
+
+.rouge {
+	color: red;
+}
+
+.eau {
+	color: aqua;
+}
+
+.fuchia {
+	color: fuchsia;
+}		
+
+.vert {
+	color: green;
+}	
+
+.citron {
+	color: lime;
+}	
+
+.maron {
+	color: maroon;
+}
+
+.marine {
+	color: navy;
+}	
+
+.olive {
+	color: olive;
+}	
+
+.pourpre {
+	color: purple;
+}
+
+.argent {
+	color: silver;
+}	
+
+.sarcelle {
+	color: teal;
+}	
+
+.jaune {
+	color: yellow;
+}	
+
+.rose {
+	color: pink;
+}
+
+.color_text {
+	color: #A0CE4E;
+}
+
+.maj {
+	text-transform: uppercase;
+}
+
+.min {
+	text-transform: lowercase;
+}
+
+/* RESPONSIVE */
+
+
+
+@media all and (min-width: 10px) and (max-width: 1000px)
+{
+
+	p,h1,h2,h3,h4,h5,h6,label {
+		font-family: 'Quicksand', Arial, sans-serif;
+	}
+
+	.text1 {
+		font-size: 20px;
+	}
+
+	.text2 {
+		font-size: 24px;
+	}
+
+	.text4 {
+		font-size: 28px;
+	}
+
+	.text5 {
+		font-size: 30px;
+	}
+
+	.text6 {
+		font-size: 32px;
+	}
+
+	.text7 {
+		font-size: 34px;
+	}
+
+	.text8 {
+		font-size: 36px;
+	}
+
+	.text9 {
+		font-size: 38px;
+	}
+
+	.text10 {
+		font-size: 40px;
+	}
+
+}
