@@ -1,0 +1,8 @@
+User-Agent: *
+Disallow: /admin.php
+Disallow: /includes/
+Disallow: /erreur/
+Disallow: /SQL/
+Disallow: /API/contact.php
+Disallow: /hebergement.php
+Sitemap: /google_sitemap.xml.gz
