@@ -56,7 +56,7 @@
                     <a href="#">Entreprise</a>
                 </li>
                 <li class="btn-active">
-                    <a href="#contact">Commander</a>
+                    <a href="#">Commander</a>
                 </li>
             </ul>
         </nav>

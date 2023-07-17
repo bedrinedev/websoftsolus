@@ -364,7 +364,8 @@ textarea {
 	margin-bottom: 15px;
 	border-radius: 15px;
 	padding: 15px;
-	width: 426px;
+	width: 70%;
+	max-width: 426px;
 	height: 100px;
 	font-family: 'Work Sans', 'Lato', Arial, sans-serif;
 }
@@ -379,7 +380,8 @@ input#prenom-ctt {
 	margin-bottom: 15px;
 	border-radius: 15px;
 	padding: 15px;
-	width: 426px;
+	width: 70%;
+	max-width: 426px;
 	height: 26px;
 }
 
@@ -393,7 +395,8 @@ input#nom-ctt {
 	margin-bottom: 15px;
 	border-radius: 15px;
 	padding: 15px;
-	width: 426px;
+	width: 70%;
+	max-width: 426px;
 	height: 26px;
 }
 
@@ -407,7 +410,8 @@ input#email-ctt {
 	margin-bottom: 15px;
 	border-radius: 15px;
 	padding: 15px;
-	width: 426px;
+	width: 70%;
+	max-width: 426px;
 	height: 26px;
 }
 
@@ -527,10 +531,47 @@ div.grid-service {
     grid-gap: 30px;
 }
 
+nav.menu-nav-2 ul li.btn, nav.menu-nav-2 ul li.btn-active {
+	width: fit-content;
+	display: block;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 }
 
 @media all and (min-width: 10px) and (max-width: 1000px)
 {
+
+div#tete-site-1 {
+	width: fit-content;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div#tete-site-1 div.titre-site {
+	margin-top: auto;
+}
+
+div#tete-site-1 nav.menu-nav {
+	width: fit-content;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+}
+
+nav.menu-nav ul {
+	padding: 0px;
+}
+
+nav.menu-nav-2 ul {
+	padding: 0px;
+}
 
 div.grid-service {
 	width: 400px;
@@ -560,18 +601,6 @@ div.accueilcontent div {
 
 div.accueilcontent h1,p {
 	text-align: center;
-}
-
-div#tete-site-1 div.titre-site {
-	margin-top: auto;
-}
-
-div#tete-site-1 nav.menu-nav {
-	margin-left: 0px;
-}
-
-nav.menu-nav ul {
-	padding-left: 0px;
 }
 
 a.menu-acc {
@@ -610,28 +639,8 @@ input.btn-valider-ctt-ok {
     font-size: 25px;
 }
 
-textarea {
-    width: 436px;
-    height: 116px;
-	font-size: 25px;
-}
-
-input#prenom-ctt {
-    width: 436px;
-    height: 48px;
-	font-size: 25px;
-}
-
-input#nom-ctt {
-    width: 436px;
-    height: 48px;
-	font-size: 25px;
-}
-
-input#email-ctt {
-    width: 436px;
-    height: 48px;
-	font-size: 25px;
+textarea, input#prenom-ctt, input#nom-ctt, input#email-ctt {
+	font-size: 14px;
 }
 
 }
