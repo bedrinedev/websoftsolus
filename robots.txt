@@ -1,3 +1,0 @@
-User-Agent: *
-Disallow: /API/contact.php
-Sitemap: /google_sitemap.xml.gz
